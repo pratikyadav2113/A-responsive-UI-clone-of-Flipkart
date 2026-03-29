@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart | Login</title>
+    <link href="login.css" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+    
+</head>
+<body>
+    <div id="login-cntr">
+        <div class="login-div">
+            <span>
+                Login
+            </span>
+
+            <span class="txt2">
+                Get access to your Orders,<br> Wishlist and Recommendations
+            </span>
+
+            <div class="lgn-img">
+                <img src="loginp.png">
+            </div>
+        </div>
+
+        <div id="lgn-det-cntr">
+            <div class="input-box">
+                <input type="text" required>
+                <label>Enter Email/Mobile number</label>
+                
+                <hr class="hr1">
+
+                <div class="error-msg">Please enter valid Email ID/Mobile number</div>
+                
+                <div class="terms">
+                    By continuing, you agree to Flipkart's <a href="#">Terms of Use</a>
+                    and <a href="#">Privacy Policy<a href="#"></a>.
+                </div>
+
+                <button>Request OTP</button>
+
+                <div class="sign-up">
+                <a href="sign-up.html" class="sign-link">
+                New to Flipkart? Create an account
+                </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+    <div id="end-links">
+        <div class="about">
+            ABOUT<br><br>
+            
+                <a href="#">Contact Us<br></a> 
+                <a href="#">About Us<br></a> 
+               <a href="#"> Careers<br></a> 
+                <a href="#">Flipkart Stories<br></a> 
+               <a href="#">Press<br></a> 
+                <a href="#">Corporate Information<br></a> 
+        
+        </div>
+
+        <div class="gp-cmp">
+            GROUP COMPANIES<br><br>
+            
+            <a href="#">Myntra<br></a>
+           <a href="#"> Cleartrip<br></a>
+           <a href="#"> Shopsy<br></a>
+         
+        </div>
+
+        <div class="help">
+            HELP<br><br>
+            
+           <a href="#">Payments</a> 
+            <a href="#">Shipping</a> 
+           <a href="#">Cancellation <br>& Returns</a> 
+            <a href="#">FAQ</a> 
+            
+
+        </div>
+
+        <div class="con-ply">
+            CONSUMERS POLICY<br><br>
+            
+                <a href="#">Cancellation &<br> Returns</a>
+               <a href="#">Terms Of Use</a> 
+                <a href="#">Security</a>
+                <a href="#">Privacy</a>
+                <a href="#">Sitemap</a>
+               <a href="#">Grievance Redressal</a> 
+                <a href="#">EPR Compliance</a>
+               <a href="#">FSSAI Food Safety</a>
+            
+
+        </div>
+
+        <div class="mail-us">
+            MAIL US:<br><br>
+            <t class="mail-add">
+                Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br> 
+                Clove Embassy Tech Village,<br>
+                 Outer Ring Road, Devarabeesanahalli Village,<br> 
+                 </t><br><br>
+                 Social:<br><br>
+                 <div class="re-direct">
+                  <a href="#"><img src="fb.png" width="30px" height="30px"></a> 
+                 <a href="#"><img src="insta.png" width="30px" height="30px"></a> 
+                 <a href="#"><img src="x.png" width="30px" height="30px"></a>
+                 <a href="#"><img src="yt.png" width="30px" height="30px"></a>
+                    </div>
+
+        </div>
+
+        <div class="roa">
+            REGISTERED OFFICE ADDRESS:<br><br>
+            <t class="mail-add">
+                  Flipkart Internet Private Limited,<br> 
+                 Buildings Alyssa, Begonia &
+                 <br>  Clove Embassy Tech Village,
+                 <br>  Outer Ring Road,
+                 <br>  Devarabeesanahalli Village,
+                 <br>  Bengaluru, 560103,
+                 <br>  Karnataka, India
+                        CIN: U51109KA2012PTC066107
+                <br>Telephone: 044-45614700/044-67415800
+                </t>
+
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div id="end-btn-links">
+        <a href="#">
+        <div class="seller">
+            <img src="store.png" width="25px" height="25px">Become a Seller
+        </div>
+        </a>
+
+        <a href="#">
+        <div class="seller">
+            <img src="advertise.png" width="25px" height="25px">Advertise
+        </div>
+        </a>
+
+        <a href="#">
+        <div class="seller">
+            <img src="reward.png" width="25px" height="25px">Gift Cards
+        </div>
+        </a>
+
+        <a href="#">
+        <div class="seller">
+            <img src="cir-que.png" width="25px" height="25px">Help Center
+            
+        </div>
+        </a>
+
+        <div class="end-tt">
+            © 2007-2026 Flipkart.com
+        </div>
+
+        <div class="cards">
+            <img src="cards.png" width="490px">
+        </div>
+    </div>
+</footer>
+    
+    <script id="9x2k1p">
+
+    const button = document.querySelector("button");
+    const input = document.querySelector(".input-box input");
+    const errorMsg = document.querySelector(".error-msg");
+
+    button.addEventListener("click", () => {
+    const value = input.value.trim();
+
+    // basic validation
+    if (value === "") {
+        errorMsg.style.display = "block";
+    } else {
+        errorMsg.style.display = "none";
+    }
+});
+</script>
+</body>
+</html>
